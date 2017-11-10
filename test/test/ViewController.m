@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     @"wang";
+    @"12312";
+//    if (@available(iOS 9.0, *)) {
+//        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+//    } else {
+//        // Fallback on earlier versions
+//    }
+    
+    @"陈龙";
 }
 
 
