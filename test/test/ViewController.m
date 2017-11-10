@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     @"wang";
+    @"12312";
 }
 
 
