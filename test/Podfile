@@ -1,0 +1,17 @@
+platform :ios, '9.0'
+use_frameworks!
+target 'test' do
+   pod ‘MJExtension’
+
+
+  target 'testTests' do
+    inherit! :search_paths
+    pod ‘MJExtension’
+  end
+
+  target 'testUITests' do
+    inherit! :search_paths
+    pod ‘MJExtension’
+  end
+
+end
